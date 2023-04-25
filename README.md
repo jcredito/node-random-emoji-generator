@@ -2,6 +2,35 @@
 
 Generate random emojis on the command line
 
-```bash
-TODO: add outpuy to the program
+## Random Emoji
+
+````bash
+$ node index.js
+❤️
+## Emoji by name
+
+``` bash
 ```
+
+$ node index.js strawberry
+🍓
+$ node index.js smile
+😄
+```
+
+Invalid emoji names will print an error
+
+```bash
+
+$ node index.js strawberryyy
+
+Invalid emoji name
+
+```
+Incorrect emoji names will print an error
+
+
+Without any user input of a correct emoji name: print emoji
+```bash
+TODO: add output to the program
+````
